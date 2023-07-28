@@ -15,7 +15,7 @@ var Movie = /** @class */ (function () {
         this.mainCharacterName = "rocky";
         this.producer = "scorcese";
         this.distributor = "cinemax";
-        this.genre = "accion";
+        this.genre = genre;
     }
     Movie.prototype.printMovie = function () {
         return "\n        title:             ".concat(this.title, "\n        releaseYear:       ").concat(this.releaseYear, "\n        arctors:           ").concat(this.actors, "\n        nacionality:       ").concat(this.nacionality, "\n        director:          ").concat(this.director, "\n        writer:            ").concat(this.writer, "\n        language:          ").concat(this.language, "\n        plataforma         ").concat(this.plataforma, "\n        isMCU              ").concat(this.isMCU, "\n        mainCharacterName: ").concat(this.mainCharacterName, " \n        producer:          ").concat(this.producer, "\n        distributor:       ").concat(this.distributor, "\n        genre:             ").concat(this.genre);

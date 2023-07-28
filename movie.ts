@@ -28,7 +28,7 @@ export class Movie{
         this.mainCharacterName = "rocky"
         this.producer = "scorcese"
         this.distributor = "cinemax"
-        this.genre = "accion"
+        this.genre = genre
        }
        printMovie(){
         return `
