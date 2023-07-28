@@ -13,17 +13,8 @@ var Professional = /** @class */ (function () {
         this.profession = profession;
     }
     Professional.prototype.printProfesional = function () {
-        return "\n        ".concat(this.name, "\n        ").concat(this.age, "\n        ").concat(this.weight, "\n        ").concat(this.height, "\n        ").concat(this.isRetired, "\n        ").concat(this.nationality, "\n        ").concat(this.oscarsNumber, "\n        ").concat(this.profession);
+        return "\n        name - ".concat(this.name, "\n        age - ").concat(this.age, "\n        weight - ").concat(this.weight, "\n        height - ").concat(this.height, "\n        isRetired - ").concat(this.isRetired, "\n        Nationality - ").concat(this.nationality, "\n        oscarNumber - ").concat(this.oscarsNumber, "\n        profession - ").concat(this.profession);
     };
     return Professional;
 }());
 exports.Professional = Professional;
-// name - ${this.name}
-// age - ${this.age}
-// weight - ${this.weight}
-// height - ${this.height}
-// isRetired - ${this.isRetired}
-// Nationality - ${this.nationality}
-// oscarNumber - ${this.oscarsNumber}
-// profession - ${this.profession}`
-// }

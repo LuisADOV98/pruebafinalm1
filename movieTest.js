@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var professional_1 = require("./professional");
+var movie_1 = require("./movie");
+var pro4 = new professional_1.Professional("silvestre stallone", 58, 85, 183, false, "estadounidense", 3, "actor,gionista");
+var pro5 = new professional_1.Professional("ashton kutcher", 45, 87, 189, false, "estadounidense", 0, "actor");
+var pro6 = new professional_1.Professional("Julia roberts", 55, 60, 173, false, "estadounidense", 1, "actriz");
+var pro7 = new professional_1.Professional("steven spilber", 80, 78, 170, false, "estadounidense", 1, "director");
+var pro8 = new professional_1.Professional("quentin Tarantino", 74, 70, 180, false, "italiano", 1, "writer");
+var pelicula = new movie_1.Movie("mujer bonita", 2000, "estados unidos", "romance");
+pelicula.actors = [pro4, pro5, pro6];
+pelicula.director = pro7;
+pelicula.writer = pro8;
+console.log(pelicula.printMovie());
