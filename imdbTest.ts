@@ -25,8 +25,19 @@ imdb1.peliculas = peliculas0
 
 
 // console.log(imdb1.escribirEnFicheroJSON("pruebafinal.ts"));
-imdb1.escribirEnFicheroJSON("./newfile.json")
+// imdb1.escribirEnFicheroJSON("./newfile.json")
 
-let nuevoProfessional: Professional = new Professional("omar", 19,80,190, true, "español", 0, "actor")
-let userName = readlineSync.question(nuevoProfessional);
-console.log("hola" + nuevoProfessional + "!");
+// let ultimoProfessional: Professional = new Professional("pedro", 40,86,178, true, "chileno", 0, "actor")
+// let userName = readlineSync.question(ultimoProfessional);
+// console.log("hola" + ultimoProfessional + "!");
+
+let name = readlineSync.question("name") 
+let age = readlineSync.question("age")
+let weight = readlineSync.question("weight")
+let height = readlineSync.question("height")
+let isRetired = readlineSync.question("isRetired")
+let nationality = readlineSync.question("nationality")
+let oscarnumber = readlineSync.question("oscarnumber")
+let profession = readlineSync.question("profession")
+let FinalProfesional = new Professional(name, age, weight, height, isRetired, nationality, oscarnumber, profession);
+console.log(FinalProfesional)
